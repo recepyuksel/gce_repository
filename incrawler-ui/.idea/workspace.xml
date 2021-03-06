@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19e60a4f-4b01-4ce9-843c-15660c31085c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HOME_LOG_IS_UNDEFINED" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1oPljXLNhrtye1sGFFhKKTjg8ct" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ex-Mimari\incrawler\vue-keycloak\src\components\management" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="install" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="install" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.install" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19e60a4f-4b01-4ce9-843c-15660c31085c" name="Default Changelist" comment="" />
+      <created>1613196243792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613196243792</updated>
+      <workItem from="1613196245577" duration="48425000" />
+      <workItem from="1613280520905" duration="22432000" />
+      <workItem from="1613368654222" duration="35419000" />
+      <workItem from="1613454814289" duration="13726000" />
+      <workItem from="1613541257983" duration="1800000" />
+      <workItem from="1613628750475" duration="15045000" />
+      <workItem from="1613715233662" duration="16118000" />
+      <workItem from="1613802293077" duration="11360000" />
+      <workItem from="1613889589671" duration="6102000" />
+      <workItem from="1614013613366" duration="14088000" />
+      <workItem from="1614082548578" duration="64000" />
+      <workItem from="1614099796185" duration="48000" />
+      <workItem from="1614099846920" duration="139000" />
+      <workItem from="1614099995390" duration="26000" />
+      <workItem from="1614100061665" duration="1026000" />
+      <workItem from="1614103242779" duration="200000" />
+      <workItem from="1614103478523" duration="7472000" />
+      <workItem from="1614146784082" duration="233000" />
+      <workItem from="1614178366778" duration="11759000" />
+      <workItem from="1614233263054" duration="83000" />
+      <workItem from="1614270662813" duration="5705000" />
+      <workItem from="1614319454348" duration="50000" />
+      <workItem from="1614356309353" duration="11460000" />
+      <workItem from="1614410221017" duration="9107000" />
+      <workItem from="1614433608884" duration="1362000" />
+    </task>
+    <task id="LOCAL-00001" summary="feature(Frontend ağırlıklı geliştirmeler): &#10;&#10;- Vuetify kullanılmaya başlandı,vue-bootstrap yerine.&#10;- header, sidebar, footer yapısı oluşturuldu&#10;- Job tablosu eklendi.&#10;- Rest servis ile bağlantı oluşturuldu.">
+      <created>1613252743123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613252743123</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feature(Rest servis e method yetkisi güncellemesi yapıldı): &#10;&#10;- Arayüzden gelen isteklerin alınabildigi dogrulandı&#10;- Job mesajları eklendi. Ancak şimdilik sadece JobDTO.java olarak gelen mesajlar ele alınabiliyor">
+      <created>1613252844749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613252844749</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature(front-end): Proxy server ve linkedin account ekleme sayfaları da yapıldı&#10;&#10;Job ekleme sayfasında edit özelliği kaldırıldı">
+      <created>1613468796553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613468796553</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature(back-end):Proxy server ve linkedin account endpointleri oluşturuldu.">
+      <created>1613468953580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613468953580</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature(docker):docker-compose da mongodb klasörü volume.">
+      <created>1613469005558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613469005558</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feature(backend):docker dan kafka çıkarıldı.&#10;- crawling bileşeninde düzenlemeler yapıldı. Job taskları ile ilgili">
+      <created>1613512357509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613512357510</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feature(frontend): job listesinde status güncellenebilir hale getirildi.">
+      <created>1613512400550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613512400550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rename ui project">
+      <created>1614103595165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614103595165</updated>
+    </task>
+    <task id="LOCAL-00009" summary="frontend e  rol yetkilendirme eklendi.">
+      <created>1614119110574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614119110574</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Grup araması eklendi.&#10;&#10;Sayfa refresh yapınca butonların kaybolması problemi düzeltildi.">
+      <created>1614276150562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614276150562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature(Frontend ağırlıklı geliştirmeler): &#10;&#10;- Vuetify kullanılmaya başlandı,vue-bootstrap yerine.&#10;- header, sidebar, footer yapısı oluşturuldu&#10;- Job tablosu eklendi.&#10;- Rest servis ile bağlantı oluşturuldu." />
+    <MESSAGE value="feature(Rest servis e method yetkisi güncellemesi yapıldı): &#10;&#10;- Arayüzden gelen isteklerin alınabildigi dogrulandı&#10;- Job mesajları eklendi. Ancak şimdilik sadece JobDTO.java olarak gelen mesajlar ele alınabiliyor" />
+    <MESSAGE value="feature(front-end): Proxy server ve linkedin account ekleme sayfaları da yapıldı&#10;&#10;Job ekleme sayfasında edit özelliği kaldırıldı" />
+    <MESSAGE value="feature(back-end):Proxy server ve linkedin account endpointleri oluşturuldu." />
+    <MESSAGE value="feature(docker):docker-compose da mongodb klasörü volume." />
+    <MESSAGE value="feature(backend):docker dan kafka çıkarıldı.&#10;- crawling bileşeninde düzenlemeler yapıldı. Job taskları ile ilgili" />
+    <MESSAGE value="feature(frontend): job listesinde status güncellenebilir hale getirildi." />
+    <MESSAGE value="rename ui project" />
+    <MESSAGE value="frontend e  rol yetkilendirme eklendi." />
+    <MESSAGE value="Grup araması eklendi.&#10;&#10;Sayfa refresh yapınca butonların kaybolması problemi düzeltildi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Grup araması eklendi.&#10;&#10;Sayfa refresh yapınca butonların kaybolması problemi düzeltildi." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="412" width="730" height="215" key="#ESLint" timestamp="1613215172123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" width="730" height="215" key="#ESLint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1613215172123" />
+    <state x="708" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614373574021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614373574021" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613201696935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1613201696935" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614099873336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614099873336" />
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1614498716205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614498716205" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1614498716204">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614498716204" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1614498716204">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614498716204" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1614498716205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614498716205" />
+    <state x="770" y="222" key="RollbackChangesDialog" timestamp="1613215005184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="770" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1613215005184" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1613215084057">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1613215084057" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614119114703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614119114703" />
+    <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1614423244533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1253" y="33" width="585" height="784" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614114540198" />
+    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614423244533" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614024891986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614024891986" />
+  </component>
+</project>
