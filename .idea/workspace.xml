@@ -6,47 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2ac6dc-b5b9-43ab-a7f4-6fde0f645612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gce_repository.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile.crawling" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile.dataservice" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile.extraction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/crawling-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/data-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/information-extraction-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/keycloak/realm-export.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/ldap/ldap-obss-com.ldif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/.dockerignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/incrawler-ui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/Dockerfile.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/auth_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/Sidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/management/CrawledProfilesTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/management/CrawlingJobTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/management/LinkedinAccountTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/management/ProcessedProfilesTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/management/ProfileDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/management/ProxyServerTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/components/pages/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/utils/KeycloakUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/utils/event-bus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/utils/http-common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrawler-ui/src/vuetify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +29,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\New folder\gce_repository" />
+      <recent name="D:\New folder\gce_repository\incrawler-ui" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,12 +49,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615053763771</updated>
-      <workItem from="1615053765770" duration="996000" />
+      <workItem from="1615053765770" duration="1692000" />
+      <workItem from="1615056291530" duration="5721000" />
     </task>
+    <task id="LOCAL-00001" summary="google cloud a yüklemek için">
+      <created>1615055472907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615055472907</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1615056355400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615056355400</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docker version">
+      <created>1615057256385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615057256385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docker version 2.2">
+      <created>1615058575338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615058575338</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docker version 2.2">
+      <created>1615058968526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615058968526</updated>
+    </task>
+    <task id="LOCAL-00006" summary="docker version 2.2">
+      <created>1615059266722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615059266722</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dockerfile update">
+      <created>1615060813781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615060813781</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -125,14 +157,25 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="google cloud a yüklemek için" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="docker version" />
+    <MESSAGE value="docker version 2.2" />
+    <MESSAGE value="dockerfile update" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerfile update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615053847543">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615060816967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615053847543" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615060816967" />
+    <state x="807" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615055295907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615055295907" />
   </component>
 </project>

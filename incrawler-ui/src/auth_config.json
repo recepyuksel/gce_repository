@@ -1,6 +1,0 @@
-{
-  "url": "http://keycloak:8080/auth",
-  "realm": "incrawler-realm",
-  "clientId": "incrawler-data-service",
-  "api_url":"http://127.0.0.1:9080/api"
-}
