@@ -96,7 +96,6 @@ services:
       interval: 10s
       timeout: 10s
       retries: 3
-      start_period: 20s
 
   postgres:
     image: postgres
@@ -128,7 +127,6 @@ services:
       - ldap-host
     healthcheck:
       test: "curl -f http://keycloak:8080/auth || exit 1"
-      start_period: 10s
       interval: 30s
       timeout: 3s
       retries: 3
