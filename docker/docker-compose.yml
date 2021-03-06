@@ -1,0 +1,164 @@
+version: '3.8'
+
+services:
+
+  data-service:
+    container_name: data-service
+    build:
+      context: .
+      dockerfile: Dockerfile.dataservice
+    image: data-service:latest
+    expose:
+      - 9080
+    ports:
+      - 9080:9080
+    logging:
+      driver: json-file
+    environment:
+      - management.endpoints.web.exposure.include=beans,env,health,info,metrics,mappings
+      - management.endpoint.health.show-details=always
+      - keycloak.auth-server-url=http://keycloak:8080/auth
+      - keycloak.realm=incrawler-realm
+      - keycloak.resource=incrawler-data-service
+      - keycloak.ssl-required=external
+      - keycloak.principal-attribute=preferred_username
+      - keycloak.use-resource-role-mappings=true
+      - logging.level.org.keycloak=DEBUG
+      - springdoc.show-actuator=true
+      - springdoc.swagger-ui.groups-order=DESC
+      - crawling.rest.endpoint.url=http://crawling-service:9081/crawling
+      - extraction.rest.endpoint.url=http://information-extraction:9082/extraction
+    links:
+      - keycloak
+
+
+  crawling-service:
+    container_name: crawling-service
+    build:
+      context: .
+      dockerfile: Dockerfile.crawling
+    image: crawling-service:latest
+    expose:
+      - 9081
+    ports:
+      - 9081:9081
+    logging:
+      driver: json-file
+    environment:
+      - spring.data.mongodb.host=mongo
+      - spring.data.mongodb.port=27017
+      - spring.data.mongodb.database=crawling-db
+      - spring.data.mongodb.authentication-database=admin
+      - spring.data.mongodb.username=crawler
+      - spring.data.mongodb.password=secret
+      - parallel.crawling.job.count=5
+      - parallel.crawling.each.job.count=3
+      - logging.level.root=warn
+      - logging.level.com.obss.crawling=debug
+    depends_on:
+      - mongo
+
+  information-extraction:
+    container_name: information-extraction
+    build:
+      context: .
+      dockerfile: Dockerfile.extraction
+    image: information-extraction:latest
+    expose:
+      - 9082
+    ports:
+      - 9082:9082
+    logging:
+      driver: json-file
+    environment:
+      - crawling.rest.endpoint.url=http://crawling-service:9081/crawling
+      - spring.data.mongodb.host=mongo
+      - spring.data.mongodb.port=27017
+      - spring.data.mongodb.database=extraction-db
+      - spring.data.mongodb.authentication-database=admin
+      - spring.data.mongodb.username=crawler
+      - spring.data.mongodb.password=secret
+
+  mongo:
+    image: mongo:3.6.22
+    container_name: mongo
+    restart: unless-stopped
+    volumes:
+      - mongodata:/data/db
+      - mongo-config:/data/configdb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "crawler"
+      MONGO_INITDB_ROOT_PASSWORD: "secret"
+    healthcheck:
+      test: echo 'db.runCommand({serverStatus:1}).ok' | mongo admin -u crawler -p secret --authenticationDatabase admin --quiet | grep 1
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+
+
+  keycloak:
+    image: jboss/keycloak:12.0.2
+    container_name: keycloak
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+      - KEYCLOAK_IMPORT=/opt/jboss/keycloak/data/realm-export.json
+      - DB_VENDOR=postgres
+      - DB_ADDR=postgres
+      - DB_USER=keycloak
+      - DB_PASSWORD=postgres
+      - JDBC_PARAMS=useSSL=false
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - ldap-host
+    healthcheck:
+      test: "curl -f http://keycloak:8080/auth || exit 1"
+      start_period: 10s
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    volumes:
+      - ./keycloak/:/opt/jboss/keycloak/data
+
+  ldap-host:
+    image: osixia/openldap:1.4.0
+    container_name: ldap-host
+    environment:
+      - LDAP_ORGANISATION="OBSS Incrawler"
+      - LDAP_DOMAIN=obss.com
+      - LDAP_ADMIN_PASSWORD=admin
+      - LDAP_REMOVE_CONFIG_AFTER_SETUP=false
+    ports:
+      - "389:389"
+    volumes:
+      - ./ldap/:/container/service/slapd/assets/config/bootstrap/ldif/custom/
+
+  phpldapadmin-service:
+    image: osixia/phpldapadmin:0.9.0
+    container_name: phpldapadmin-service
+    environment:
+      - PHPLDAPADMIN_LDAP_HOSTS=ldap-host
+    ports:
+      - "6443:443"
+    depends_on:
+      - ldap-host
+
+volumes:
+  mongodata:
+  mongo-config:
+

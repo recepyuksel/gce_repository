@@ -1,0 +1,78 @@
+version: 1
+
+dn: olcOverlay=memberof,olcDatabase={0}config,cn=config
+objectClass: olcMemberOf
+objectClass: olcOverlayConfig
+objectClass: olcConfig
+objectClass: top
+olcOverlay: memberof
+olcMemberOfDangling: ignore
+olcMemberOfRefInt: TRUE
+olcMemberOfGroupOC: groupOfNames
+olcMemberOfMemberAD: member
+olcMemberOfMemberOfAD: memberOf
+
+
+# gruplar
+dn: ou=groups,dc=obss,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+# admin grubu
+dn: cn=admin,ou=groups,dc=obss,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: admin
+member: uid=admin,ou=users,dc=obss,dc=com
+
+# users grubu
+dn: cn=users,ou=groups,dc=obss,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: users
+member: uid=admin,ou=users,dc=obss,dc=com
+member: uid=ryuksel,ou=users,dc=obss,dc=com
+
+
+# kullanicilar
+dn: ou=users,dc=obss,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+
+dn: uid=admin,ou=users,dc=obss,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: admin
+sn: Lastname
+givenName: Firstname
+cn: admin
+displayName: admin
+mail: admin@obss.com
+userPassword: {MD5}ICy5YqxZB1uWSwcVLSNLcA==
+memberOf: cn=users,ou=groups,dc=obss,dc=com
+memberOf: cn=admin,ou=groups,dc=obss,dc=com
+
+dn: uid=ryuksel,ou=users,dc=obss,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: ryuksel
+sn: Lastname
+givenName: Firstname
+cn: ryuksel
+displayName: ryuksel
+mail: ryuksel@obss.com
+userPassword: {MD5}ICy5YqxZB1uWSwcVLSNLcA==
+memberOf: cn=users,ou=groups,dc=obss,dc=com
+
+
+
+
+
+

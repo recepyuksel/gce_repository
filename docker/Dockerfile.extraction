@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=information-extraction-0.0.1-SNAPSHOT.jar
+COPY ${JAR_FILE} information-extraction.jar
+ENTRYPOINT ["java", "-jar", "information-extraction.jar"]
+EXPOSE 9082
