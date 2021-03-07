@@ -28,8 +28,6 @@ services:
       - springdoc.swagger-ui.groups-order=DESC
       - crawling.rest.endpoint.url=http://crawling-service:9081/crawling
       - extraction.rest.endpoint.url=http://information-extraction:9082/extraction
-    links:
-      - keycloak
 
 
   crawling-service:
@@ -55,8 +53,6 @@ services:
       - parallel.crawling.each.job.count=3
       - logging.level.root=warn
       - logging.level.com.obss.crawling=debug
-    depends_on:
-      - mongo
 
   information-extraction:
     container_name: information-extraction
