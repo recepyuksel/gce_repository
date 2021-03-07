@@ -17,7 +17,7 @@ services:
     environment:
       - management.endpoints.web.exposure.include=beans,env,health,info,metrics,mappings
       - management.endpoint.health.show-details=always
-      - keycloak.auth-server-url=http://keycloak:8080/auth
+      - keycloak.auth-server-url=http://10.128.0.8:8080/auth
       - keycloak.realm=incrawler-realm
       - keycloak.resource=incrawler-data-service
       - keycloak.ssl-required=external
