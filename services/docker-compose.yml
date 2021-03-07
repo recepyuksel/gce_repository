@@ -26,8 +26,8 @@ services:
       - logging.level.org.keycloak=DEBUG
       - springdoc.show-actuator=true
       - springdoc.swagger-ui.groups-order=DESC
-      - crawling.rest.endpoint.url=http://127.0.0.1:9081/crawling
-      - extraction.rest.endpoint.url=http://127.0.0.1:9082/extraction
+      - crawling.rest.endpoint.url=http://35.224.138.228:9081/crawling
+      - extraction.rest.endpoint.url=http://35.224.138.228:9082/extraction
 
 
   crawling-service:
@@ -67,7 +67,7 @@ services:
     logging:
       driver: json-file
     environment:
-      - crawling.rest.endpoint.url=http://127.0.0.1:9081/crawling
+      - crawling.rest.endpoint.url=http://35.224.138.228:9081/crawling
       - spring.data.mongodb.host=35.224.138.228
       - spring.data.mongodb.port=27017
       - spring.data.mongodb.database=extraction-db
