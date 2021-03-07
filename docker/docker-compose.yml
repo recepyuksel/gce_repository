@@ -17,7 +17,7 @@ services:
     environment:
       - management.endpoints.web.exposure.include=beans,env,health,info,metrics,mappings
       - management.endpoint.health.show-details=always
-      - keycloak.auth-server-url=http://35.224.138.228:8080/auth
+      - keycloak.auth-server-url=http://keycloak:8080/auth
       - keycloak.realm=incrawler-realm
       - keycloak.resource=incrawler-data-service
       - keycloak.ssl-required=external
@@ -26,8 +26,8 @@ services:
       - logging.level.org.keycloak=DEBUG
       - springdoc.show-actuator=true
       - springdoc.swagger-ui.groups-order=DESC
-      - crawling.rest.endpoint.url=http://35.224.138.228:9081/crawling
-      - extraction.rest.endpoint.url=http://35.224.138.228:9082/extraction
+      - crawling.rest.endpoint.url=http://crawling-service:9081/crawling
+      - extraction.rest.endpoint.url=http://information-extraction:9082/extraction
     links:
       - keycloak
 
@@ -71,7 +71,7 @@ services:
     logging:
       driver: json-file
     environment:
-      - crawling.rest.endpoint.url=http://35.224.138.228:9081/crawling
+      - crawling.rest.endpoint.url=http://crawling-service:9081/crawling
       - spring.data.mongodb.host=mongo
       - spring.data.mongodb.port=27017
       - spring.data.mongodb.database=extraction-db
@@ -127,7 +127,7 @@ services:
       - postgres
       - ldap-host
     healthcheck:
-      test: "curl -f http://35.224.138.228:8080/auth || exit 1"
+      test: "curl -f http://keycloak:8080/auth || exit 1"
       interval: 30s
       timeout: 3s
       retries: 3
